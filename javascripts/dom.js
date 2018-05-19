@@ -8,7 +8,7 @@ const insultBuilder = (arrayOInsults) => {
   arrayOInsults.forEach((insult) => {
     stringToPrint += `${insult} `;
   });
-  $.trim(stringToPrint);
+  stringToPrint = $.trim(stringToPrint);
   console.error('trimmed: ', stringToPrint);
   stringToPrint += `!</h1>`;
   printToDom(stringToPrint);
