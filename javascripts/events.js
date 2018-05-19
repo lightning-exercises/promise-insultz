@@ -12,7 +12,7 @@ const generateInsult = () => {
   const firstDescription = descriptors[randomNumber(descriptors.length)].text;
   const secondDescription = descriptors[randomNumber(descriptors.length)].text;
   const theNoun = nouns[randomNumber(nouns.length)].text;
-  return `${firstDescription} ${secondDescription} ${theNoun}`;
+  return `YOU ${firstDescription} ${secondDescription} ${theNoun}!`;
 };
 
 const randomNumber = (arrLength) => {
