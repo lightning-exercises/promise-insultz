@@ -1,1 +1,3 @@
-// You should probably write some code here
+const button = require('./events');
+
+button();
