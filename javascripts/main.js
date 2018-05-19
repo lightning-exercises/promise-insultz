@@ -1,3 +1,1 @@
-const button = require('./events');
-
-button();
+require('./events');
